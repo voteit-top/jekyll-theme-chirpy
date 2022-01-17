@@ -1,7 +1,9 @@
 /*
   The common styles
-*/
+//disable googleapi
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro:wght@400;600;900&display=swap');
+*/
+
 
 @mixin mode-toggle($dark-mode: false) {
   @if $dark-mode {
